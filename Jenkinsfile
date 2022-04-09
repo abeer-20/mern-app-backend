@@ -13,7 +13,7 @@ pipeline{
         stage("test-sonar"){
             steps{
                 script {
-                    withSonarQubeEnv("sonarqube") {
+                    withSonarQubeEnv("sonarQube") {
                     sh "${scannerHome}/bin/sonar-scanner \
                         -Dsonar.projectKey=mern-backend\
                         -Dsonar.sources=. \
