@@ -14,7 +14,7 @@ spec:
         app: backend
     spec:
       containers:
-        - name: backend
+        - name: 8f31af0ab918
           image: abeerab/image:latest
           ports:
             - containerPort: 5000
